@@ -1,0 +1,153 @@
+<html >
+<title>
+</title>
+<head>
+    <meta charset="utf-8">
+<script>
+function fa()
+{
+/* 
+    x=document.getElementById('n1').value;  
+    document.getElementById('n5').value = x;
+ */
+
+/* 
+x = document.f1.m1.value;
+document.f1.m5.value = x;
+ */
+
+
+/* x = document.getElementById  ('n1').value;
+document .getElement('text').innerHTML = x; */
+
+
+
+/* x = parseInt(document.getElementById) */
+
+
+
+/* Найти наибольшее из чисел */
+
+/* x = document.getElementById ('n1').value;
+y = document.getElementById ('n2').value;
+z = document.getElementById ('n3').value;
+
+if (x >= y && y >= z) {
+    res = x;
+} else if (y >= x && y >= z ) {
+    res = y;
+} else {
+    res = z;
+}
+document.getElementById('n5').value = res;   */
+
+
+/* Число по дню недели */
+
+/* let number
+let day
+number = document.getElementById('n1').value;
+switch (number)
+{
+case '1': day ='понедельник'; break;
+case '2': day ='вторник'; break;
+case '3': day = 'среда';break;
+case '4': day = 'четверг';break;
+case '5': day = 'пятница';break;
+case '6': day = 'суббота';break;
+case '7': day = 'воскресенье';break;
+default : day = 'нет такого дня';
+}
+document.getElementById('n5').value = day; */
+
+
+/* результат действия */
+
+/* let a 
+a = 1*document.getElementById('n1').value;
+let b 
+b = document.getElementById('n2').value;
+let c 
+c = 1*document.getElementById('n3').value;
+switch(b)
+{
+case'+': result = a + c; break;
+case'-': result = a - c; break;
+case'*': result = a * c; break;
+case'/': result = a / c; break;
+default : relult = 'Ошибка';
+}
+document.getElementById('n5').value = a + b + c + '=' + result; */
+
+
+/* Время года */
+
+/* let number, season
+number = document.getElementById('n1').value;
+
+switch(number)
+{
+case '12':
+case '1':
+case '2':season = 'Зима';break;
+case '3':
+case '4':
+case '5':season = 'Весна';break;
+case '6':
+case '7':
+case '8':season = 'Лето';break;
+case '9':
+case '10':
+case '11':season = 'Осень';break;
+}
+document.getElementById('n5').value = season; */
+
+
+/* Число в диапазоне */
+
+/* let number, ostatok, gotovo
+number = 1*document.getElementById('n1').value;
+if (number >= 20 && number<= 99)
+{
+    ostatok = number%10
+    switch(ostatok)
+    {
+        case 1 : gotovo = 'рубль'; break;
+        case 2 :
+        case 3 :
+        case 4 : gotovo = 'рубля'; break;
+        case 5 :
+        case 6 :
+        case 7 :    
+        case 8 :
+        case 9 :
+        case 0 : gotovo = 'рублей';break;
+    }
+    document.getElementById('n5').value ='У вас'+' '+number+' '+gotovo
+}
+
+else if (number <20 || number >99)
+{document.getElementById('n5').value = 'Вне диапозона'}
+else {document.getElementById('n5').value = 'Это не число'} */
+
+}
+
+</script>
+</head>
+<body>
+   
+<FORM name="f1"  >
+
+Введите   <input type="text"  name="m1" id="n1"><br><br>
+Введите   <input type="text"  name="m2" id="n2"><br><br>
+Введите   <input type="text"  name="m3" id="n3"><br><br>
+
+		<input type="button"  name="m4" id="n4" value="Кнопка" onclick="fa()";><br><br>
+Ответ   <input type="text"  name="m5" id="n5" size="50"><br><br>
+
+
+
+</form>
+<p id="text"></p>
+</body>
+<html>
